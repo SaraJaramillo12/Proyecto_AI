@@ -13,7 +13,8 @@ const App = () => {
             body: JSON.stringify({ features: [parseFloat(input)] }),
         });
         const data = await response.json();
-        setPrediction(data.prediction);
+        console.log(data);  // Verifica qué valor estás recibiendo del backend
+        setPrediction(data.prediction); // Asegúrate de que 'prediction' sea lo que necesitas
     };
 
     return (
@@ -26,10 +27,19 @@ const App = () => {
                 placeholder="Ingresa un valor"
                 className="border p-2"
             />
-            <button onClick={handleSubmit} className="bg-blue-500 text-white p-2 ml-2">
+            <button 
+                onClick={handleSubmit} 
+                className="bg-blue-500 text-white p-2 ml-2"
+            >
                 Predecir
             </button>
-            {prediction !== null && <p>Predicción: {prediction}</p>}
+
+            {/* Aseguramos que la predicción es válida antes de mostrarla */}
+            {prediction !== null && (
+                <p className="mt-4 text-lg font-semibold">
+                    Predicción: {prediction.toFixed(2)} {/* Redondea la predicción a 2 decimales */}
+                </p>
+            )}
         </div>
     );
 };
