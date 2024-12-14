@@ -39,10 +39,12 @@
   }
    */
 
-
-
-
- /* Necesario para la perspectiva 3D en la rotación de la tarjeta */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Necesario para la perspectiva 3D en la rotación de la tarjeta */
 .perspective-1000 {
   perspective: 1000px;
 }
@@ -64,3 +66,19 @@
 .backface-hidden {
   backface-visibility: hidden;
 }
+
+
+/* Estilo para el scroll */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #74C69D; /* Light green */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e0e0e0; /* Light grey background for the track */
+}
+
