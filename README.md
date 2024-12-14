@@ -6,8 +6,12 @@
 - **Julian Villa** 
 - **Santiago Castaño** 
 
-**Proyecto Final - TalentoTech 2024**  
-El proyecto fue realizado en el marco del curso de AI-ML TalentoTech
+**Proyecto Final - TalentoTech**  
+
+
+---
+
+![Sistema de Predicción de Datos](./assets/prediccion-cultivos.png)
 
 ---
 
