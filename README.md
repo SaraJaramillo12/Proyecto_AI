@@ -1,5 +1,11 @@
 # Predicción del impacto económico de cultivos
 
+## Autores 😊
+
+- **Sara Jaramillo**  
+- **Julian Villa** 
+- **Santiago Castaño** 
+
 **Proyecto Final - TalentoTech 2024**  
 El proyecto fue realizado en el marco del curso de AI-ML TalentoTech
 
@@ -82,11 +88,7 @@ La predicción del impacto económico de un cultivo es esencial para los agricul
 
 ---
 
-## Autores 😊
 
-- **Sara Jaramillo**  
-- **Julian Villa** 
-- **Santiago Castañeda** 
 
 ---
 
